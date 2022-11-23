@@ -1,0 +1,400 @@
+make all --print-data-base --no-builtin-variables --no-builtin-rules --question
+make: *** No rule to make target 'all'.  Stop.
+
+# GNU Make 4.1
+# Built for x86_64-pc-linux-gnu
+# Copyright (C) 1988-2014 Free Software Foundation, Inc.
+# License GPLv3+: GNU GPL version 3 or later <http://gnu.org/licenses/gpl.html>
+# This is free software: you are free to change and redistribute it.
+# There is NO WARRANTY, to the extent permitted by law.
+
+# Make data base, printed on Wed Aug  3 10:04:54 2022
+
+# Variables
+
+# automatic
+<D = $(patsubst %/,%,$(dir $<))
+# automatic
+?F = $(notdir $?)
+# default
+.SHELLFLAGS := -c
+# environment
+VSCODE_AGENT_FOLDER = /home/ubuntu/.vscode-server-insiders
+# automatic
+?D = $(patsubst %/,%,$(dir $?))
+# automatic
+@D = $(patsubst %/,%,$(dir $@))
+# automatic
+@F = $(notdir $@)
+# default
+MAKE_VERSION := 4.1
+# makefile
+CURDIR := /home/ubuntu/SearchEngine/online
+# makefile
+SHELL = /bin/sh
+# environment
+VSCODE_NLS_CONFIG = {"locale":"zh-cn","availableLanguages":{"*":"zh-cn"},"_languagePackId":"77dd423173c04201a63902e2b0038e26.zh-cn","_translationsConfigFile":"/home/ubuntu/.vscode-server-insiders/data/clp/77dd423173c04201a63902e2b0038e26.zh-cn/tcf.json","_cacheRoot":"/home/ubuntu/.vscode-server-insiders/data/clp/77dd423173c04201a63902e2b0038e26.zh-cn","_resolvedLanguagePackCoreLocation":"/home/ubuntu/.vscode-server-insiders/data/clp/77dd423173c04201a63902e2b0038e26.zh-cn/e9bda7aa4ff76648cfccc1a7bde465443803da71","_corruptedFile":"/home/ubuntu/.vscode-server-insiders/data/clp/77dd423173c04201a63902e2b0038e26.zh-cn/corrupted.info","_languagePackSupport":true}
+# environment
+_ = /home/ubuntu/.vscode-server-insiders/bin/e9bda7aa4ff76648cfccc1a7bde465443803da71/node
+# makefile (from 'Makefile', line 16)
+OBJS6 = $(patsubst src/%.cc,objs/%.o, $(SRCS6))
+# makefile (from 'Makefile', line 1)
+MAKEFILE_LIST :=  Makefile
+# makefile (from 'Makefile', line 8)
+SRCS5 = $(wildcard src/LRUCache/*.cc)
+# makefile (from 'Makefile', line 18)
+OBJS_ALL = $(OBJS) $(OBJS2) $(OBJS3) $(OBJS4) $(OBJS5) $(OBJS6)
+# 'override' directive
+GNUMAKEFLAGS := 
+# environment
+XDG_DATA_DIRS = /usr/local/share:/usr/share:/var/lib/snapd/desktop
+# environment
+DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
+# makefile (from 'Makefile', line 6)
+SRCS3 = $(wildcard src/KeyRecommander/*.cc)
+# makefile (from 'Makefile', line 11)
+OBJS = $(patsubst src/Reactor/%.cc,objs/%.o, $(SRCS))
+# environment
+LESSOPEN = | /usr/bin/lesspipe %s
+# environment
+VSCODE_CWD = /home/ubuntu
+# makefile (from 'Makefile', line 14)
+OBJS4 = $(patsubst src/WebPageSearcher/%.cc,objs/%.o, $(SRCS4))
+# environment
+SSH_CONNECTION = 192.168.127.1 50215 192.168.127.133 22
+# environment
+PATH = /home/ubuntu/.vscode-server-insiders/bin/e9bda7aa4ff76648cfccc1a7bde465443803da71/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin
+# makefile (from 'Makefile', line 12)
+OBJS2 = $(patsubst src/SearchEngineServer/%.cc,objs/%.o, $(SRCS2))
+# environment
+XDG_RUNTIME_DIR = /run/user/1000
+# makefile (from 'Makefile', line 15)
+OBJS5 = $(patsubst src/LRUCache/%.cc,objs/%.o, $(SRCS5))
+# environment
+ELECTRON_RUN_AS_NODE = 1
+# default
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell archives jobserver output-sync check-symlink load
+# environment
+LS_COLORS = 
+# automatic
+%F = $(notdir $%)
+# environment
+PWD = /home/ubuntu/SearchEngine/online
+# environment
+VSCODE_IPC_HOOK_CLI = /run/user/1000/vscode-ipc-dab2a3cf-0264-4a9a-8a38-3bb3596660dc.sock
+# automatic
+*D = $(patsubst %/,%,$(dir $*))
+# environment
+VSCODE_AMD_ENTRYPOINT = vs/workbench/api/node/extensionHostProcess
+# environment
+HOME = /home/ubuntu
+# environment
+LESSCLOSE = /usr/bin/lesspipe %s %s
+# environment
+LOGNAME = ubuntu
+# environment
+APPLICATION_INSIGHTS_NO_DIAGNOSTIC_CHANNEL = true
+# automatic
++F = $(notdir $+)
+# environment
+VSCODE_HANDLES_UNCAUGHT_ERRORS = true
+# automatic
+^D = $(patsubst %/,%,$(dir $^))
+# environment
+MAKELEVEL := 0
+# default
+MAKE = $(MAKE_COMMAND)
+# default
+MAKECMDGOALS := all
+# makefile (from 'Makefile', line 4)
+SRCS = $(wildcard src/Reactor/*.cc)
+# environment
+SHLVL = 3
+# makefile (from 'Makefile', line 13)
+OBJS3 = $(patsubst src/KeyRecommander/%.cc,objs/%.o, $(SRCS3))
+# makefile (from 'Makefile', line 2)
+CC = g++
+# environment
+XDG_SESSION_ID = 6
+# environment
+USER = ubuntu
+# makefile
+.DEFAULT_GOAL := server
+# automatic
+%D = $(patsubst %/,%,$(dir $%))
+# default
+MAKE_COMMAND := make
+# environment
+OLDPWD = /home/ubuntu/.vscode-server-insiders/bin/e9bda7aa4ff76648cfccc1a7bde465443803da71
+# default
+.VARIABLES := 
+# automatic
+*F = $(notdir $*)
+# environment
+LANGUAGE = zh_CN:zh
+# makefile
+MAKEFLAGS = pqrR
+# environment
+MFLAGS = -pqrR
+# environment
+SSH_CLIENT = 192.168.127.1 50215 22
+# environment
+MAIL = /var/mail/ubuntu
+# makefile (from 'Makefile', line 9)
+SRCS6 = $(wildcard src/*.cc)
+# automatic
++D = $(patsubst %/,%,$(dir $+))
+# environment
+BROWSER = /home/ubuntu/.vscode-server-insiders/bin/e9bda7aa4ff76648cfccc1a7bde465443803da71/bin/helpers/browser.sh
+# environment
+VSCODE_HANDLES_SIGPIPE = true
+# default
+MAKEFILES := 
+# automatic
+<F = $(notdir $<)
+# environment
+PS1 = \[\e[37;40m\][\[\e[32;40m\]\u\[\e[37;40m\]@ \[\e[36;40m\]\w\[\e[0m\]]\$ 
+# makefile (from 'Makefile', line 7)
+SRCS4 = $(wildcard src/WebPageSearcher/*.cc)
+# environment
+LC_ALL = C
+# makefile (from 'Makefile', line 5)
+SRCS2 = $(wildcard src/SearchEngineServer/*.cc)
+# makefile (from 'Makefile', line 1)
+OUT = server
+# automatic
+^F = $(notdir $^)
+# default
+SUFFIXES := 
+# default
+.INCLUDE_DIRS = /usr/include /usr/local/include /usr/include
+# default
+.RECIPEPREFIX := 
+# default
+MAKE_HOST := x86_64-pc-linux-gnu
+# environment
+LANG = C
+# variable set hash-table stats:
+# Load=81/1024=8%, Rehash=0, Collisions=12/121=10%
+
+# Pattern-specific Variable Values
+
+# No pattern-specific variable values.
+
+# Directories
+
+# src/WebPageSearcher (device 2049, inode 1070901): 4 files, no impossibilities.
+# . (device 2049, inode 1070387): 10 files, no impossibilities.
+# src/SearchEngineServer (device 2049, inode 1070429): 5 files, no impossibilities.
+# src/KeyRecommander (device 2049, inode 1070878): 4 files, no impossibilities.
+# src/LRUCache (device 2049, inode 1070883): 4 files, no impossibilities.
+# src/Reactor (device 2049, inode 1070414): 11 files, no impossibilities.
+# src (device 2049, inode 1070413): 9 files, no impossibilities.
+
+# 47 files, no impossibilities in 7 directories.
+
+# Implicit Rules
+
+objs/%.o: src/Reactor/%.cc
+#  recipe to execute (from 'Makefile', line 24):
+	@$(CC) -c $^ -o $@  
+
+objs/%.o: src/SearchEngineServer/%.cc
+#  recipe to execute (from 'Makefile', line 26):
+	@$(CC) -c $^ -o $@  
+
+objs/%.o: src/KeyRecommander/%.cc
+#  recipe to execute (from 'Makefile', line 28):
+	@$(CC) -c $^ -o $@  
+
+objs/%.o: src/WebPageSearcher/%.cc
+#  recipe to execute (from 'Makefile', line 30):
+	@$(CC) -c $^ -o $@  
+
+objs/%.o: src/LRUCache/%.cc
+#  recipe to execute (from 'Makefile', line 32):
+	@$(CC) -c $^ -o $@  
+
+objs/%.o: src/%.cc
+#  recipe to execute (from 'Makefile', line 34):
+	@$(CC) -c $^ -o $@  
+
+# 6 implicit rules, 0 (0.0%) terminal.
+
+# Files
+
+# Not a target:
+objs/socket_io.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+objs/lru_cache.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+objs/dictionary.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+all:
+#  Command line target.
+#  Implicit rule search has been done.
+#  File does not exist.
+#  File has not been updated.
+
+.PHONY: clean rebuild print
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+objs/search_engine_server.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+objs/configuration.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+objs/start_se_server.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+objs/web_page_searcher.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+print:
+#  Phony target (prerequisite of .PHONY).
+ 
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 46):
+	echo $(OBJS_ALL)
+
+# Not a target:
+objs/task_queue.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+Makefile:
+#  Implicit rule search has been done.
+#  Last modified 2022-08-02 11:58:57.965310023
+#  File has been updated.
+#  Successfully updated.
+
+rebuild: clean server
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+
+server: objs/tcp_connection.o objs/mutex_lock.o objs/event_loop.o objs/thread.o objs/inet_address.o objs/socket_io.o objs/acceptor.o objs/task_queue.o objs/thread_pool.o objs/start_se_server.o objs/calculate_task.o objs/search_engine_server.o objs/key_recommander.o objs/dictionary.o objs/web_page_searcher.o objs/lru_cache.o objs/configuration.o
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 21):
+	$(CC) $^ -o $@  -lpthread
+
+# Not a target:
+objs/mutex_lock.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+objs/acceptor.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+objs/key_recommander.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+.DEFAULT:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+objs/tcp_connection.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+objs/event_loop.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+clean:
+#  Phony target (prerequisite of .PHONY).
+#  Implicit rule search has not been done.
+#  File does not exist.
+#  File has not been updated.
+#  recipe to execute (from 'Makefile', line 41):
+	rm -f $(OBJS_ALL)
+	
+
+# Not a target:
+objs/calculate_task.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+objs/thread.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+objs/inet_address.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# Not a target:
+objs/thread_pool.o:
+#  Implicit rule search has not been done.
+#  Modification time never checked.
+#  File has not been updated.
+
+# files hash-table stats:
+# Load=26/1024=3%, Rehash=0, Collisions=0/61=0%
+# VPATH Search Paths
+
+# No 'vpath' search paths.
+
+# No general ('VPATH' variable) search path.
+
+# strcache buffers: 1 (0) / strings = 71 / storage = 1037 B / avg = 14 B
+# current buf: size = 8162 B / used = 1037 B / count = 71 / avg = 14 B
+
+# strcache performance: lookups = 106 / hit rate = 33%
+# hash-table stats:
+# Load=71/8192=1%, Rehash=0, Collisions=7/106=7%
+# Finished Make data base on Wed Aug  3 10:04:54 2022
+
+ 

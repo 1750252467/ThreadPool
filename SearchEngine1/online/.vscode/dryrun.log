@@ -1,0 +1,22 @@
+make --dry-run --always-make --keep-going --print-directory
+make: Entering directory '/home/ubuntu/SearchEngine/online'
+g++ -c src/Reactor/tcp_connection.cc -o objs/tcp_connection.o  
+g++ -c src/Reactor/mutex_lock.cc -o objs/mutex_lock.o  
+g++ -c src/Reactor/event_loop.cc -o objs/event_loop.o  
+g++ -c src/Reactor/thread.cc -o objs/thread.o  
+g++ -c src/Reactor/inet_address.cc -o objs/inet_address.o  
+g++ -c src/Reactor/socket_io.cc -o objs/socket_io.o  
+g++ -c src/Reactor/acceptor.cc -o objs/acceptor.o  
+g++ -c src/Reactor/task_queue.cc -o objs/task_queue.o  
+g++ -c src/Reactor/thread_pool.cc -o objs/thread_pool.o  
+g++ -c src/SearchEngineServer/start_se_server.cc -o objs/start_se_server.o  
+g++ -c src/SearchEngineServer/calculate_task.cc -o objs/calculate_task.o  
+g++ -c src/SearchEngineServer/search_engine_server.cc -o objs/search_engine_server.o  
+g++ -c src/KeyRecommander/key_recommander.cc -o objs/key_recommander.o  
+g++ -c src/KeyRecommander/dictionary.cc -o objs/dictionary.o  
+g++ -c src/WebPageSearcher/web_page_searcher.cc -o objs/web_page_searcher.o  
+g++ -c src/LRUCache/lru_cache.cc -o objs/lru_cache.o  
+g++ -c src/configuration.cc -o objs/configuration.o  
+g++ objs/tcp_connection.o objs/mutex_lock.o objs/event_loop.o objs/thread.o objs/inet_address.o objs/socket_io.o objs/acceptor.o objs/task_queue.o objs/thread_pool.o objs/start_se_server.o objs/calculate_task.o objs/search_engine_server.o objs/key_recommander.o objs/dictionary.o objs/web_page_searcher.o objs/lru_cache.o objs/configuration.o -o server  -lpthread
+make: Leaving directory '/home/ubuntu/SearchEngine/online'
+ 

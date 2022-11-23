@@ -1,0 +1,38 @@
+2022-08-05 14:30:16,050 MyCategory [INFO] [src/SearchEngineServer/search_engine_server.cc:onConnection:45] [LogInfo]: client conn success
+2022-08-05 14:30:22,407 MyCategory [INFO] [src/SearchEngineServer/calculate_task.cc:wordSearcher:68] [LogInfo]word query
+2022-08-05 14:30:24,374 MyCategory [INFO] [src/SearchEngineServer/calculate_task.cc:pageSearcher:130] [LogInfo]page query
+2022-08-05 14:30:26,706 MyCategory [INFO] [src/SearchEngineServer/search_engine_server.cc:onClose:71] [LogInfo]: client conn break
+2022-08-05 15:26:39,747 MyCategory [INFO] [src/SearchEngineServer/search_engine_server.cc:onConnection:45] [LogInfo]: client conn success
+2022-08-05 15:26:43,539 MyCategory [INFO] [src/SearchEngineServer/calculate_task.cc:wordSearcher:68] [LogInfo]word query
+2022-08-05 15:26:46,484 MyCategory [INFO] [src/SearchEngineServer/calculate_task.cc:pageSearcher:130] [LogInfo]page query
+2022-08-05 15:26:49,237 MyCategory [INFO] [src/SearchEngineServer/search_engine_server.cc:onClose:71] [LogInfo]: client conn break
+2022-08-05 15:40:09,175 MyCategory [INFO] [src/SearchEngineServer/search_engine_server.cc:onConnection:45] [LogInfo]: client conn success
+2022-08-05 15:40:12,383 MyCategory [INFO] [src/SearchEngineServer/calculate_task.cc:pageSearcher:130] [LogInfo]page query
+2022-08-05 15:40:17,175 MyCategory [INFO] [src/SearchEngineServer/calculate_task.cc:wordSearcher:68] [LogInfo]word query
+2022-08-05 15:40:19,496 MyCategory [INFO] [src/SearchEngineServer/calculate_task.cc:wordSearcher:42] [LogInfo]word query
+2022-08-05 15:40:26,280 MyCategory [INFO] [src/SearchEngineServer/search_engine_server.cc:onClose:71] [LogInfo]: client conn break
+2022-08-05 15:49:30,535 MyCategory [INFO] [src/SearchEngineServer/search_engine_server.cc:onConnection:45] [LogInfo]: client conn success
+2022-08-05 15:49:57,875 MyCategory [INFO] [src/SearchEngineServer/calculate_task.cc:wordSearcher:68] [LogInfo]word query
+2022-08-05 15:50:06,511 MyCategory [INFO] [src/SearchEngineServer/calculate_task.cc:wordSearcher:42] [LogInfo]word query
+2022-08-05 15:51:42,405 MyCategory [INFO] [src/SearchEngineServer/search_engine_server.cc:onConnection:45] [LogInfo]: client conn success
+2022-08-05 15:52:02,433 MyCategory [INFO] [src/SearchEngineServer/calculate_task.cc:wordSearcher:68] [LogInfo]word query
+2022-08-05 15:52:15,345 MyCategory [INFO] [src/SearchEngineServer/calculate_task.cc:wordSearcher:42] [LogInfo]word query
+2022-08-05 16:14:41,508 MyCategory [INFO] [src/SearchEngineServer/search_engine_server.cc:onConnection:45] [LogInfo]: client conn success
+2022-08-05 16:14:58,183 MyCategory [INFO] [src/SearchEngineServer/calculate_task.cc:pageSearcher:130] [LogInfo]page query
+2022-08-05 16:15:32,469 MyCategory [INFO] [src/SearchEngineServer/calculate_task.cc:pageSearcher:91] [LogInfo]page query
+2022-08-06 16:04:50,791 MyCategory [INFO] [src/SearchEngineServer/search_engine_server.cc:onConnection:45] [LogInfo]: client conn success
+2022-08-06 16:05:16,326 MyCategory [INFO] [src/SearchEngineServer/calculate_task.cc:wordSearcher:68] [LogInfo]word query
+2022-08-06 16:05:19,354 MyCategory [INFO] [src/SearchEngineServer/calculate_task.cc:wordSearcher:42] [LogInfo]word query
+2022-08-06 16:05:24,437 MyCategory [INFO] [src/SearchEngineServer/calculate_task.cc:pageSearcher:130] [LogInfo]page query
+2022-08-06 16:05:27,964 MyCategory [INFO] [src/SearchEngineServer/calculate_task.cc:pageSearcher:130] [LogInfo]page query
+2022-08-06 16:05:37,310 MyCategory [INFO] [src/SearchEngineServer/calculate_task.cc:pageSearcher:130] [LogInfo]page query
+2022-08-06 16:05:48,305 MyCategory [INFO] [src/SearchEngineServer/calculate_task.cc:pageSearcher:91] [LogInfo]page query
+2022-08-06 16:05:59,721 MyCategory [INFO] [src/SearchEngineServer/calculate_task.cc:pageSearcher:91] [LogInfo]page query
+2022-08-06 16:06:11,108 MyCategory [INFO] [src/SearchEngineServer/calculate_task.cc:pageSearcher:130] [LogInfo]page query
+2022-08-06 16:06:14,886 MyCategory [INFO] [src/SearchEngineServer/calculate_task.cc:pageSearcher:130] [LogInfo]page query
+2022-08-06 16:06:41,130 MyCategory [INFO] [src/SearchEngineServer/calculate_task.cc:wordSearcher:68] [LogInfo]word query
+2022-08-06 16:06:50,687 MyCategory [INFO] [src/SearchEngineServer/calculate_task.cc:wordSearcher:42] [LogInfo]word query
+2022-08-06 16:06:59,545 MyCategory [INFO] [src/SearchEngineServer/calculate_task.cc:wordSearcher:68] [LogInfo]word query
+2022-08-06 16:07:05,377 MyCategory [INFO] [src/SearchEngineServer/calculate_task.cc:wordSearcher:42] [LogInfo]word query
+2022-08-06 16:07:54,529 MyCategory [INFO] [src/SearchEngineServer/calculate_task.cc:wordSearcher:68] [LogInfo]word query
+2022-08-06 16:07:57,371 MyCategory [INFO] [src/SearchEngineServer/search_engine_server.cc:onClose:71] [LogInfo]: client conn break
